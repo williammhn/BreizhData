@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SceneController">
+   <children>
+      <SplitPane dividerPositions="0.23469387755102042" prefHeight="668.0" prefWidth="982.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <AnchorPane layoutX="13.0" layoutY="221.0" prefHeight="200.0" prefWidth="200.0" />
+                  <ImageView fitHeight="290.0" fitWidth="293.0" layoutX="93.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/logo.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="666.0" prefWidth="712.0">
+               <children>
+                  <SplitPane dividerPositions="0.10687732342007435" layoutX="65.0" layoutY="84.0" orientation="VERTICAL" prefHeight="666.0" prefWidth="663.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="71.0" prefWidth="722.0">
+                           <children>
+                              <AnchorPane layoutX="306.0" layoutY="11.0" prefHeight="46.0" prefWidth="83.0" />
+                              <ImageView fx:id="profil" fitHeight="90.0" fitWidth="109.0" layoutX="686.0" layoutY="14.0" onDragDetected="#clickOnProfilAcc" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/profile.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <SplitPane dividerPositions="0.42538593481989706" layoutX="6.0" layoutY="-14.0" orientation="VERTICAL" prefHeight="585.0" prefWidth="661.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="-6.0" AnchorPane.topAnchor="-14.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="140.0" prefWidth="659.0">
+                                       <children>
+                                          <GridPane layoutX="140.0" layoutY="19.0" prefHeight="383.0" prefWidth="845.0">
+                                            <columnConstraints>
+                                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                            </columnConstraints>
+                                            <rowConstraints>
+                                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                              <RowConstraints maxHeight="234.0" minHeight="10.0" prefHeight="230.0" vgrow="SOMETIMES" />
+                                              <RowConstraints maxHeight="121.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                                            </rowConstraints>
+                                             <children>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text=" Qui somme nous ?" textAlignment="CENTER" wrappingWidth="343.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="30.0" />
+                                                   </font>
+                                                </Text>
+                                                <TextArea nodeOrientation="LEFT_TO_RIGHT" prefHeight="234.0" prefWidth="746.0" text="BreizhData est une entreprise fondée dans le but de &#10;récolter des données afin de mettre en avant la région&#10;Bretagne, les données récoltées se base sûr l’attractivité&#10;,les communes, le nombres d’habitants, les lieux &#10;culturels, les transport, gare, aréaoport.&#10;A travers tout les données nous métons a votre &#10;dispotion notre outils qui vous permettre de naviguer&#10;dans toutes ces paramètres. " wrapText="true" GridPane.rowIndex="1">
+                                                   <font>
+                                                      <Font size="20.0" />
+                                                   </font>
+                                                </TextArea>
+                                                <Button fx:id="enSavoirPlus" mnemonicParsing="false" onAction="#clickEnSavoirPlus" prefHeight="46.0" prefWidth="199.0" text="En savoir plus" textAlignment="CENTER" GridPane.rowIndex="2">
+                                                   <font>
+                                                      <Font size="20.0" />
+                                                   </font>
+                                                </Button>
+                                             </children>
+                                          </GridPane>
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="89.0" prefWidth="659.0">
+                                       <children>
+                                          <SplitPane dividerPositions="0.5822147651006712" layoutX="68.0" layoutY="17.0" prefHeight="541.0" prefWidth="1460.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                            <items>
+                                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                                   <children>
+                                                      <GridPane layoutX="124.0" layoutY="98.0" prefHeight="302.0" prefWidth="707.0">
+                                                        <columnConstraints>
+                                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                        </columnConstraints>
+                                                        <rowConstraints>
+                                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                        </rowConstraints>
+                                                         <children>
+                                                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nos données" textAlignment="CENTER" wrappingWidth="266.3681640625">
+                                                               <font>
+                                                                  <Font name="System Bold" size="30.0" />
+                                                               </font>
+                                                            </Text>
+                                                            <TextArea prefHeight="152.0" prefWidth="629.0" text="Cette carte vous permet de  naviguer et de &#10;comparer les données exploitées" GridPane.rowIndex="1">
+                                                               <font>
+                                                                  <Font size="20.0" />
+                                                               </font>
+                                                            </TextArea>
+                                                            <Button fx:id="accueilleMapButton" mnemonicParsing="false" onAction="#clickMapAccueille" prefHeight="46.0" prefWidth="142.0" text="Map" GridPane.rowIndex="2">
+                                                               <font>
+                                                                  <Font size="20.0" />
+                                                               </font>
+                                                            </Button>
+                                                         </children>
+                                                      </GridPane>
+                                                   </children>
+                                                </AnchorPane>
+                                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="209.0" prefWidth="299.0">
+                                                   <children>
+                                                      <SplitPane orientation="VERTICAL" prefHeight="539.0" prefWidth="605.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                        <items>
+                                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                                               <children>
+                                                                  <GridPane layoutX="47.0" layoutY="169.0" prefHeight="541.0" prefWidth="603.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                    <columnConstraints>
+                                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                    </columnConstraints>
+                                                                    <rowConstraints>
+                                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                    </rowConstraints>
+                                                                     <children>
+                                                                        <ImageView fitHeight="451.0" fitWidth="603.0" pickOnBounds="true" preserveRatio="true">
+                                                                           <image>
+                                                                              <Image url="@image/map.png" />
+                                                                           </image>
+                                                                        </ImageView>
+                                                                     </children>
+                                                                  </GridPane>
+                                                               </children>
+                                                            </AnchorPane>
+                                                        </items>
+                                                      </SplitPane>
+                                                   </children>
+                                                </AnchorPane>
+                                            </items>
+                                          </SplitPane>
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

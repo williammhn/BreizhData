@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/matteo/javafx/javafx.base.jar",
+        "/home/matteo/javafx/javafx.controls.jar",
+        "/home/matteo/javafx/javafx.fxml.jar",
+        "/home/matteo/javafx/javafx.graphics.jar",
+        "/home/matteo/javafx/javafx.media.jar",
+        "/home/matteo/javafx/javafx.swing.jar",
+        "/home/matteo/javafx/javafx.web.jar",
+        "/home/matteo/javafx/javafx-swt.jar"
+    ]
+}

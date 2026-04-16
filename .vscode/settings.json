@@ -1,0 +1,22 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "SAE_Application/lib/javafx/javafx-swt.jar",
+        "SAE_Application/lib/javafx/javafx.web.jar",
+        "SAE_Application/lib/javafx/javafx.swing.jar",
+        "SAE_Application/lib/javafx/javafx.media.jar",
+        "SAE_Application/lib/javafx/javafx.graphics.jar",
+        "SAE_Application/lib/javafx/javafx.fxml.jar",
+        "SAE_Application/lib/javafx/javafx.controls.jar",
+        "SAE_Application/lib/javafx/javafx.base.jar",
+        "/home/malliwi/Documents/BreizhData/SAE_Application/lib/javafx/javafx.base.jar",
+        "/home/malliwi/Documents/BreizhData/SAE_Application/lib/javafx/javafx.controls.jar",
+        "/home/malliwi/Documents/BreizhData/SAE_Application/lib/javafx/javafx.fxml.jar",
+        "/home/malliwi/Documents/BreizhData/SAE_Application/lib/javafx/javafx.graphics.jar",
+        "/home/malliwi/Documents/BreizhData/SAE_Application/lib/javafx/javafx.media.jar",
+        "/home/malliwi/Documents/BreizhData/SAE_Application/lib/javafx/javafx.swing.jar",
+        "/home/malliwi/Documents/BreizhData/SAE_Application/lib/javafx/javafx.web.jar",
+        "/home/malliwi/Documents/BreizhData/SAE_Application/lib/javafx/javafx-swt.jar",
+        "/home/malliwi/Documents/BreizhData/SAE_Application/lib/mysql-connector-j-8.4.0.jar"
+    ]
+}
